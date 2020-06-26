@@ -1,6 +1,3 @@
-// const eslint = require('com.vscot.fabric/lib/eslint')
-
-
 module.exports = {
   extends: [require.resolve('com.vscot.fabric/lib/tslint')],
   globals: {
