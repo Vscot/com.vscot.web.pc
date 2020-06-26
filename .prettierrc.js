@@ -1,5 +1,5 @@
-const fabric = require('@umijs/fabric');
+const fabric = require('com.vscot.fabric/lib/prettier');
 
 module.exports = {
-  ...fabric.prettier,
+  ...fabric,
 };
