@@ -22,5 +22,18 @@
       "@@/*": ["./src/.umi/*"]
     }
   },
-  "exclude": ["node_modules", "build", "dist", "scripts", "src/.umi/*", "webpack", "jest"]
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "scripts",
+    "src/.umi/*",
+    "webpack",
+    "jest",
+    ".prettierrc.js",
+    ".stylelintrc.js",
+    ".commitlintrc.js"
+  ],
+  "include": ["src/**/*", ".eslintrc.js"],
+  "compileOnSave": false
 }
