@@ -7,7 +7,6 @@ module.exports = {
     page: true,
     REACT_APP_ENV: true,
   },
-  // parser: '@typescript-eslint/parser',
   parserOptions: {
     project: path.join(__dirname, './tsconfig.json'),
   },
