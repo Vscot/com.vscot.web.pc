@@ -32,8 +32,9 @@
     "jest",
     ".prettierrc.js",
     ".stylelintrc.js",
-    ".commitlintrc.js"
+    ".commitlintrc.js",
+    ".eslintrc.js"
   ],
-  "include": ["src/**/*", ".eslintrc.js"],
+  "include": ["src/**/*"],
   "compileOnSave": false
 }
